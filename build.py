@@ -28,9 +28,9 @@ SITE_DESCRIPTION = (
     "governanca e o que isso muda na pratica."
 )
 # EDIT ME again if you move to a custom domain later:
-SITE_URL = "https://dancing-sundae-71c0ca.netlify.app"
+SITE_URL = "https://ia-radar.netlify.app"
 # EDIT ME once your AdSense account is approved:
-ADSENSE_PUBLISHER_ID = "ca-pub-0000000000000000"  # placeholder — replace with your real pub id
+ADSENSE_PUBLISHER_ID = "ca-pub-1463247682631823"
 ADSENSE_SLOT_HEADER = "0000000000"  # placeholder ad slot ids
 ADSENSE_SLOT_INARTICLE = "0000000000"
 
