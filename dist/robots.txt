@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dancing-sundae-71c0ca.netlify.app/sitemap.xml
