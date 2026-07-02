@@ -127,11 +127,19 @@ def footer_html():
 """
 
 
+def thumb_url(slug, w=800, h=450):
+    # Deterministic real photo per post (same slug always returns the same image).
+    # Lorem Picsum is a stable, key-free photo service — no API key, no credits, no
+    # broken-link risk like a hand-picked stock URL would have.
+    return f"https://picsum.photos/seed/{slug}/{w}/{h}"
+
+
 def card_html(post, featured=False):
     cls = "card featured" if featured else "card"
+    img_w, img_h = (900, 600) if featured else (600, 400)
     return f"""
 <a class="{cls}" href="/posts/{post['slug']}.html">
-  <div class="thumb"></div>
+  <div class="thumb"><img src="{thumb_url(post['slug'], img_w, img_h)}" alt="{post['title']}" loading="lazy"></div>
   <span class="tag">{post['category']}</span>
   <h3>{post['title']}</h3>
   <p class="excerpt">{post['excerpt']}</p>
@@ -210,6 +218,9 @@ def render_post(post):
     <span class="tag">{post['category']}</span>
     <h1>{post['title']}</h1>
     <div class="meta"><span>{fmt_date(post['date'])}</span><span class="sep">•</span><span>{post['read_min']} min de leitura</span></div>
+  </div>
+  <div class="wrap" style="max-width:760px;margin:0 auto">
+    <div class="post-cover"><img src="{thumb_url(post['slug'], 1200, 640)}" alt="{post['title']}" loading="lazy"></div>
   </div>
   <article class="content">
     {post['content_html']}
