@@ -19,6 +19,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA_FILE = os.path.join(ROOT, "data", "posts.json")
 DIST = os.path.join(ROOT, "dist")
 ASSETS_SRC = os.path.join(ROOT, "assets")
+STATIC_SRC = os.path.join(ROOT, "static")
 
 SITE_NAME = "Radar IA"
 SITE_TAGLINE = "Tecnologia e Inteligência Artificial, direto ao ponto"
@@ -82,6 +83,7 @@ def base_head(title, description, path=""):
 <meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="/assets/style.css">
 <link rel="icon" href="data:,">
+<link rel="alternate" type="application/rss+xml" title="{SITE_NAME} RSS" href="{SITE_URL}/feed.xml">
 {ADSENSE_HEAD_SNIPPET}
 </head>
 """
@@ -118,6 +120,7 @@ def footer_html():
         <a href="/sobre.html">Sobre</a>
         <a href="/privacidade.html">Privacidade &amp; Cookies</a>
         <a href="/contato.html">Contato</a>
+        <a href="/feed.xml">RSS</a>
       </div>
     </div>
     <p style="margin-top:32px">© {year} {SITE_NAME}. Todos os direitos reservados.</p>
@@ -313,12 +316,44 @@ def render_sitemap(posts):
     return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{items}\n</urlset>\n'
 
 
+
+def render_rss(posts):
+    def esc(s):
+        return (s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
+    items = []
+    for p in posts[:20]:
+        url = f"{SITE_URL}/posts/{p['slug']}.html"
+        pub_date = datetime.strptime(p["date"], "%Y-%m-%d").strftime("%a, %d %b %Y 08:00:00 +0000")
+        items.append(f"""  <item>
+    <title>{esc(p['title'])}</title>
+    <link>{url}</link>
+    <guid>{url}</guid>
+    <pubDate>{pub_date}</pubDate>
+    <category>{esc(p['category'])}</category>
+    <description>{esc(p['excerpt'])}</description>
+  </item>""")
+    items_xml = "\n".join(items)
+    return f'''<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>{SITE_NAME}</title>
+  <link>{SITE_URL}</link>
+  <description>{SITE_DESCRIPTION}</description>
+  <language>pt-BR</language>
+{items_xml}
+</channel>
+</rss>
+'''
+
+
 def build():
     posts = load_posts()
 
     os.makedirs(DIST, exist_ok=True)
     os.makedirs(os.path.join(DIST, "posts"), exist_ok=True)
     shutil.copytree(ASSETS_SRC, os.path.join(DIST, "assets"), dirs_exist_ok=True)
+    if os.path.isdir(STATIC_SRC):
+        shutil.copytree(STATIC_SRC, DIST, dirs_exist_ok=True)
 
     with open(os.path.join(DIST, "index.html"), "w", encoding="utf-8") as f:
         f.write(render_index(posts))
@@ -339,6 +374,8 @@ def build():
         f.write(render_robots())
     with open(os.path.join(DIST, "sitemap.xml"), "w", encoding="utf-8") as f:
         f.write(render_sitemap(posts))
+    with open(os.path.join(DIST, "feed.xml"), "w", encoding="utf-8") as f:
+        f.write(render_rss(posts))
 
     print(f"Build OK — {len(posts)} posts -> {DIST}")
 

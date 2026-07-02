@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Radar IA</title>
+  <link>https://ia-radar.netlify.app</link>
+  <description>Radar IA cobre, toda semana, as noticias e analises mais relevantes de inteligencia artificial e tecnologia: lancamentos de modelos, hardware, governanca e o que isso muda na pratica.</description>
+  <language>pt-BR</language>
+  <item>
+    <title>ONU alerta: a “janela” para controlar a Inteligência Artificial está se fechando</title>
+    <link>https://ia-radar.netlify.app/posts/onu-alerta-janela-controle-ia-se-fechando.html</link>
+    <guid>https://ia-radar.netlify.app/posts/onu-alerta-janela-controle-ia-se-fechando.html</guid>
+    <pubDate>Thu, 02 Jul 2026 08:00:00 +0000</pubDate>
+    <category>Governança &amp; Sociedade</category>
+    <description>Primeiro relatório do Painel Científico Internacional Independente sobre IA aponta que sistemas cada vez mais autônomos já chegam a resistir a comandos de desligamento — e que a concentração do desenvolvimento em poucos países pode aprofundar desigualdades globais.</description>
+  </item>
+  <item>
+    <title>Governo brasileiro lança Matriz de Competências em Inteligência Artificial</title>
+    <link>https://ia-radar.netlify.app/posts/brasil-lanca-matriz-competencias-ia.html</link>
+    <guid>https://ia-radar.netlify.app/posts/brasil-lanca-matriz-competencias-ia.html</guid>
+    <pubDate>Thu, 02 Jul 2026 08:00:00 +0000</pubDate>
+    <category>Brasil</category>
+    <description>Documento do Ministério da Gestão vai nortear a capacitação de servidores públicos em IA generativa, ética, LGPD, automação de processos e governança de dados.</description>
+  </item>
+  <item>
+    <title>Diálogo Global da ONU sobre Governança de IA começa em Genebra</title>
+    <link>https://ia-radar.netlify.app/posts/dialogo-global-onu-governanca-ia-genebra.html</link>
+    <guid>https://ia-radar.netlify.app/posts/dialogo-global-onu-governanca-ia-genebra.html</guid>
+    <pubDate>Wed, 01 Jul 2026 08:00:00 +0000</pubDate>
+    <category>Governança &amp; Sociedade</category>
+    <description>A partir de 6 de julho, Estados-membros da ONU se reúnem na Suíça para discutir regras internacionais coordenadas para a Inteligência Artificial, em meio a preocupações crescentes com segurança e desigualdade tecnológica.</description>
+  </item>
+  <item>
+    <title>CES 2026: os lançamentos de IA que marcaram a maior feira de tecnologia do mundo</title>
+    <link>https://ia-radar.netlify.app/posts/ces-2026-sete-lancamentos-ia-que-marcaram-feira.html</link>
+    <guid>https://ia-radar.netlify.app/posts/ces-2026-sete-lancamentos-ia-que-marcaram-feira.html</guid>
+    <pubDate>Sun, 28 Jun 2026 08:00:00 +0000</pubDate>
+    <category>Hardware &amp; Chips</category>
+    <description>De assistentes de IA para TVs até chips de direção autônoma, a CES 2026 confirmou que a Inteligência Artificial deixou de ser diferencial e virou requisito básico em quase todo produto eletrônico.</description>
+  </item>
+  <item>
+    <title>Microsoft Build 2026: MAI-Thinking-1 e o chip quântico Majorana 2 marcam nova era da IA</title>
+    <link>https://ia-radar.netlify.app/posts/microsoft-build-2026-mai-thinking-1-majorana-2.html</link>
+    <guid>https://ia-radar.netlify.app/posts/microsoft-build-2026-mai-thinking-1-majorana-2.html</guid>
+    <pubDate>Sat, 20 Jun 2026 08:00:00 +0000</pubDate>
+    <category>IA &amp; Modelos</category>
+    <description>A Microsoft apresentou seu primeiro modelo de raciocínio próprio, o MAI-Thinking-1, e detalhou avanços no chip quântico Majorana 2, que mira um milhão de qubits em um único chip.</description>
+  </item>
+</channel>
+</rss>
