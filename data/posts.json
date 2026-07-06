@@ -96,5 +96,28 @@
         "url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/"
       }
     ]
+  },
+  {
+    "slug": "anthropic-negocia-com-a-samsung-fabrica-o-de-chip-pr-prio-de-intelig-ncia-artificial",
+    "title": "Anthropic negocia com a Samsung fabricação de chip próprio de Inteligência Artificial",
+    "category": "Hardware & Chips",
+    "date": "2026-07-06",
+    "read_min": 6,
+    "excerpt": "A empresa por trás do Claude está em conversas iniciais com a Samsung para fabricar um chip de IA sob medida em processo de 2 nanômetros, movimento que reflete a corrida das grandes empresas de IA por menos dependência da Nvidia.",
+    "content_html": "<p>A Anthropic, empresa por trás do assistente de Inteligência Artificial Claude, está em conversas com a sul-coreana Samsung Electronics para explorar uma parceria de fabricação de um chip próprio de IA. A informação foi divulgada pelo site americano <strong>The Information</strong> em 2 de julho de 2026 e confirmada por outros veículos, como TechCrunch, Bloomberg e SiliconANGLE, que reforçam a seriedade das tratativas mesmo que o projeto ainda esteja em fase preliminar.</p>\n\n<h2>Um projeto ainda sem forma definida</h2>\n<p>Segundo as reportagens, a Anthropic ainda não decidiu para que finalidade específica o chip seria usado, como ele se encaixaria fisicamente nos servidores nem qual seria sua capacidade de processamento. Ou seja: a empresa está nos estágios iniciais de um processo que, em geral, leva anos entre negociação, projeto e produção em escala de um semicondutor voltado à IA. Ainda assim, o movimento marca uma mudança de postura em relação a abril de 2026, quando a agência Reuters já havia noticiado que a Anthropic apenas cogitava desenvolver hardware próprio como resposta à escassez global de chips de IA. Agora, a empresa parece tratar o assunto com mais concretude.</p>\n\n<h2>Por que a Samsung entra nessa conversa</h2>\n<p>De acordo com o The Information, as tratativas giram em torno do processo de fabricação de <strong>2 nanômetros (SF2)</strong> da Samsung, que utiliza transistores do tipo Gate-All-Around — uma arquitetura mais recente e eficiente do que a tecnologia FinFET usada na geração anterior de chips — além das instalações de empacotamento avançado da companhia. A escolha da Samsung não é aleatória: a fabricante já é parceira estratégica da Nvidia na produção de chips e integra, ao lado da SK Hynix e da Micron, o grupo de investidores estratégicos que participou da recente rodada de captação de US$ 65 bilhões da própria Anthropic. A empresa também reforçou seu time interno de hardware ao contratar Clive Chan, ex-integrante da equipe de silício própria da OpenAI, sinal de que pretende internalizar conhecimento técnico sobre projeto de chips.</p>\n\n<p>Procurada pela TechCrunch, a Anthropic afirmou que um portfólio diversificado de hardware — hoje apoiado em chips da Google, da Amazon e da Nvidia — continua sendo peça central de sua estratégia de infraestrutura computacional, e preferiu não comentar diretamente as negociações com a Samsung.</p>\n\n<h2>A corrida das empresas de IA por chips próprios</h2>\n<p>O interesse da Anthropic em ter seu próprio semicondutor não é um caso isolado. Uma semana antes da reportagem sobre a Samsung, a concorrente OpenAI anunciou parceria com a Broadcom para produzir seu primeiro processador de inferência sob medida, batizado de \"Jalapeño\" — chip que, segundo a OpenAI, oferece melhor desempenho por watt do que opções concorrentes disponíveis no mercado. Amazon e Google já operam suas próprias unidades de processamento (TPUs e chips Trainium, respectivamente) havia mais tempo, dentro de suas nuvens.</p>\n\n<p>Esse movimento coletivo tem uma explicação comum: reduzir a dependência da Nvidia, que segue como líder isolada do mercado de chips para treinamento e execução de modelos de IA, e ganhar mais controle sobre custo, disponibilidade e características técnicas do hardware que sustenta seus produtos. Para empresas que gastam bilhões de dólares em capacidade computacional, mesmo pequenos ganhos de eficiência energética ou de custo por chip podem representar economias expressivas em escala.</p>\n\n<h2>O que esperar daqui para frente</h2>\n<p>Por ora, não há cronograma público para quando — ou se — um chip da Anthropic sairá do papel, tampouco confirmação oficial de que a parceria com a Samsung vai se concretizar. Mas o episódio ilustra bem um momento da indústria de IA em que as maiores empresas do setor deixam de ser apenas compradoras de hardware e passam a disputar, também, o projeto e a fabricação dos componentes que movem seus modelos. Para o usuário final, o efeito prático tende a aparecer de forma indireta, com o tempo: mais eficiência nos data centers pode significar preços mais competitivos e maior disponibilidade dos serviços de IA generativa no médio prazo.</p>",
+    "sources": [
+      {
+        "title": "TechCrunch — Anthropic is discussing a new custom chip with Samsung",
+        "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/"
+      },
+      {
+        "title": "The Information — Anthropic in Talks With Samsung to Manufacture Custom AI Chip",
+        "url": "https://www.theinformation.com/articles/anthropic-talks-samsung-manufacture-custom-ai-chip"
+      },
+      {
+        "title": "Bloomberg — Anthropic in Talks With Samsung for Custom AI Chip: Information",
+        "url": "https://www.bloomberg.com/news/articles/2026-07-02/anthropic-in-talks-with-samsung-for-custom-ai-chip-information-mr3l34t4"
+      }
+    ]
   }
 ]
