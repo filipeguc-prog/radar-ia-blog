@@ -6,6 +6,14 @@
   <description>Radar IA cobre, toda semana, as noticias e analises mais relevantes de inteligencia artificial e tecnologia: lancamentos de modelos, hardware, governanca e o que isso muda na pratica.</description>
   <language>pt-BR</language>
   <item>
+    <title>OpenAI lança GPT-6 Astra, seu primeiro modelo com nível "Crítico" de cibersegurança</title>
+    <link>https://ia-radar.netlify.app/posts/openai-lan-a-gpt-6-astra-seu-primeiro-modelo-com-n-vel-cr-tico-de-ciberseguran-a.html</link>
+    <guid>https://ia-radar.netlify.app/posts/openai-lan-a-gpt-6-astra-seu-primeiro-modelo-com-n-vel-cr-tico-de-ciberseguran-a.html</guid>
+    <pubDate>Fri, 04 Sep 2026 08:00:00 +0000</pubDate>
+    <category>IA &amp; Modelos</category>
+    <description>Novo modelo da OpenAI é apresentado como o mais capaz já implantado em larga escala e o primeiro a atingir o nível "Crítico" de cibersegurança da empresa. A própria companhia admite que ficou mais difícil monitorar o raciocínio interno do sistema.</description>
+  </item>
+  <item>
     <title>Unitree estreia com alta de 460% na bolsa e China acelera a corrida da 'IA física'</title>
     <link>https://ia-radar.netlify.app/posts/unitree-estreia-com-alta-de-460-na-bolsa-e-china-acelera-a-corrida-da-ia-f-sica.html</link>
     <guid>https://ia-radar.netlify.app/posts/unitree-estreia-com-alta-de-460-na-bolsa-e-china-acelera-a-corrida-da-ia-f-sica.html</guid>
@@ -156,14 +164,6 @@
     <pubDate>Sun, 28 Jun 2026 08:00:00 +0000</pubDate>
     <category>Hardware &amp; Chips</category>
     <description>De assistentes de IA para TVs até chips de direção autônoma, a CES 2026 confirmou que a Inteligência Artificial deixou de ser diferencial e virou requisito básico em quase todo produto eletrônico.</description>
-  </item>
-  <item>
-    <title>Microsoft Build 2026: MAI-Thinking-1 e o chip quântico Majorana 2 marcam nova era da IA</title>
-    <link>https://ia-radar.netlify.app/posts/microsoft-build-2026-mai-thinking-1-majorana-2.html</link>
-    <guid>https://ia-radar.netlify.app/posts/microsoft-build-2026-mai-thinking-1-majorana-2.html</guid>
-    <pubDate>Sat, 20 Jun 2026 08:00:00 +0000</pubDate>
-    <category>IA &amp; Modelos</category>
-    <description>A Microsoft apresentou seu primeiro modelo de raciocínio próprio, o MAI-Thinking-1, e detalhou avanços no chip quântico Majorana 2, que mira um milhão de qubits em um único chip.</description>
   </item>
 </channel>
 </rss>
