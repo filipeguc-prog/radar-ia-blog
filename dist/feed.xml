@@ -6,6 +6,14 @@
   <description>Radar IA cobre, toda semana, as noticias e analises mais relevantes de inteligencia artificial e tecnologia: lancamentos de modelos, hardware, governanca e o que isso muda na pratica.</description>
   <language>pt-BR</language>
   <item>
+    <title>Anthropic adia IPO e pode estrear na Bolsa avaliada em US$ 2 trilhões</title>
+    <link>https://ia-radar.netlify.app/posts/anthropic-adia-ipo-e-pode-estrear-na-bolsa-avaliada-em-us-2-trilh-es.html</link>
+    <guid>https://ia-radar.netlify.app/posts/anthropic-adia-ipo-e-pode-estrear-na-bolsa-avaliada-em-us-2-trilh-es.html</guid>
+    <pubDate>Mon, 07 Sep 2026 08:00:00 +0000</pubDate>
+    <category>Negócios &amp; Mercado</category>
+    <description>Criadora do assistente Claude adiou para meados de outubro sua oferta pública de ações e pode chegar ao mercado valendo cerca de US$ 2 trilhões (R$ 10,7 trilhões), o que faria da operação uma das maiores da história.</description>
+  </item>
+  <item>
     <title>OpenAI lança GPT-6 Astra, seu primeiro modelo com nível "Crítico" de cibersegurança</title>
     <link>https://ia-radar.netlify.app/posts/openai-lan-a-gpt-6-astra-seu-primeiro-modelo-com-n-vel-cr-tico-de-ciberseguran-a.html</link>
     <guid>https://ia-radar.netlify.app/posts/openai-lan-a-gpt-6-astra-seu-primeiro-modelo-com-n-vel-cr-tico-de-ciberseguran-a.html</guid>
@@ -156,14 +164,6 @@
     <pubDate>Wed, 01 Jul 2026 08:00:00 +0000</pubDate>
     <category>Governança &amp; Sociedade</category>
     <description>A partir de 6 de julho, Estados-membros da ONU se reúnem na Suíça para discutir regras internacionais coordenadas para a Inteligência Artificial, em meio a preocupações crescentes com segurança e desigualdade tecnológica.</description>
-  </item>
-  <item>
-    <title>CES 2026: os lançamentos de IA que marcaram a maior feira de tecnologia do mundo</title>
-    <link>https://ia-radar.netlify.app/posts/ces-2026-sete-lancamentos-ia-que-marcaram-feira.html</link>
-    <guid>https://ia-radar.netlify.app/posts/ces-2026-sete-lancamentos-ia-que-marcaram-feira.html</guid>
-    <pubDate>Sun, 28 Jun 2026 08:00:00 +0000</pubDate>
-    <category>Hardware &amp; Chips</category>
-    <description>De assistentes de IA para TVs até chips de direção autônoma, a CES 2026 confirmou que a Inteligência Artificial deixou de ser diferencial e virou requisito básico em quase todo produto eletrônico.</description>
   </item>
 </channel>
 </rss>
