@@ -6,6 +6,14 @@
   <description>Radar IA cobre, toda semana, as noticias e analises mais relevantes de inteligencia artificial e tecnologia: lancamentos de modelos, hardware, governanca e o que isso muda na pratica.</description>
   <language>pt-BR</language>
   <item>
+    <title>DeepSeek lança V4.1-Flash: modelo menor que promete superar o V4-Pro gastando muito menos</title>
+    <link>https://ia-radar.netlify.app/posts/deepseek-lan-a-v4-1-flash-modelo-menor-que-promete-superar-o-v4-pro-gastando-muito-menos.html</link>
+    <guid>https://ia-radar.netlify.app/posts/deepseek-lan-a-v4-1-flash-modelo-menor-que-promete-superar-o-v4-pro-gastando-muito-menos.html</guid>
+    <pubDate>Thu, 10 Sep 2026 08:00:00 +0000</pubDate>
+    <category>IA &amp; Modelos</category>
+    <description>A startup chinesa apresentou o V4.1-Flash, modelo com 552 bilhões de parâmetros e compreensão visual nativa que, segundo a empresa, supera o V4-Pro em desempenho, custo e velocidade usando apenas um quarto da memória HBM da geração anterior. Lançamento acontece às vésperas do IPO da DeepSeek em Xangai.</description>
+  </item>
+  <item>
     <title>Anthropic adia IPO e pode estrear na Bolsa avaliada em US$ 2 trilhões</title>
     <link>https://ia-radar.netlify.app/posts/anthropic-adia-ipo-e-pode-estrear-na-bolsa-avaliada-em-us-2-trilh-es.html</link>
     <guid>https://ia-radar.netlify.app/posts/anthropic-adia-ipo-e-pode-estrear-na-bolsa-avaliada-em-us-2-trilh-es.html</guid>
@@ -156,14 +164,6 @@
     <pubDate>Thu, 02 Jul 2026 08:00:00 +0000</pubDate>
     <category>Brasil</category>
     <description>Documento do Ministério da Gestão vai nortear a capacitação de servidores públicos em IA generativa, ética, LGPD, automação de processos e governança de dados.</description>
-  </item>
-  <item>
-    <title>Diálogo Global da ONU sobre Governança de IA começa em Genebra</title>
-    <link>https://ia-radar.netlify.app/posts/dialogo-global-onu-governanca-ia-genebra.html</link>
-    <guid>https://ia-radar.netlify.app/posts/dialogo-global-onu-governanca-ia-genebra.html</guid>
-    <pubDate>Wed, 01 Jul 2026 08:00:00 +0000</pubDate>
-    <category>Governança &amp; Sociedade</category>
-    <description>A partir de 6 de julho, Estados-membros da ONU se reúnem na Suíça para discutir regras internacionais coordenadas para a Inteligência Artificial, em meio a preocupações crescentes com segurança e desigualdade tecnológica.</description>
   </item>
 </channel>
 </rss>
