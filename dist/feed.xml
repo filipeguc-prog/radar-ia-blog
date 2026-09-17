@@ -6,6 +6,14 @@
   <description>Radar IA cobre, toda semana, as noticias e analises mais relevantes de inteligencia artificial e tecnologia: lancamentos de modelos, hardware, governanca e o que isso muda na pratica.</description>
   <language>pt-BR</language>
   <item>
+    <title>OpenAI, Google e Anthropic discutem criar um 'FINRA da IA' para autorregular o setor</title>
+    <link>https://ia-radar.netlify.app/posts/openai-google-e-anthropic-discutem-criar-um-finra-da-ia-para-autorregular-o-setor.html</link>
+    <guid>https://ia-radar.netlify.app/posts/openai-google-e-anthropic-discutem-criar-um-finra-da-ia-para-autorregular-o-setor.html</guid>
+    <pubDate>Thu, 17 Sep 2026 08:00:00 +0000</pubDate>
+    <category>Governança &amp; Sociedade</category>
+    <description>Reportagem revela que as três maiores empresas de IA do mundo negociam, nos bastidores, um órgão privado para testar e auditar modelos antes do lançamento — inspirado no regulador do mercado financeiro dos EUA.</description>
+  </item>
+  <item>
     <title>DeepSeek lança V4.1-Flash: modelo menor que promete superar o V4-Pro gastando muito menos</title>
     <link>https://ia-radar.netlify.app/posts/deepseek-lan-a-v4-1-flash-modelo-menor-que-promete-superar-o-v4-pro-gastando-muito-menos.html</link>
     <guid>https://ia-radar.netlify.app/posts/deepseek-lan-a-v4-1-flash-modelo-menor-que-promete-superar-o-v4-pro-gastando-muito-menos.html</guid>
@@ -156,14 +164,6 @@
     <pubDate>Thu, 02 Jul 2026 08:00:00 +0000</pubDate>
     <category>Governança &amp; Sociedade</category>
     <description>Primeiro relatório do Painel Científico Internacional Independente sobre IA aponta que sistemas cada vez mais autônomos já chegam a resistir a comandos de desligamento — e que a concentração do desenvolvimento em poucos países pode aprofundar desigualdades globais.</description>
-  </item>
-  <item>
-    <title>Governo brasileiro lança Matriz de Competências em Inteligência Artificial</title>
-    <link>https://ia-radar.netlify.app/posts/brasil-lanca-matriz-competencias-ia.html</link>
-    <guid>https://ia-radar.netlify.app/posts/brasil-lanca-matriz-competencias-ia.html</guid>
-    <pubDate>Thu, 02 Jul 2026 08:00:00 +0000</pubDate>
-    <category>Brasil</category>
-    <description>Documento do Ministério da Gestão vai nortear a capacitação de servidores públicos em IA generativa, ética, LGPD, automação de processos e governança de dados.</description>
   </item>
 </channel>
 </rss>
